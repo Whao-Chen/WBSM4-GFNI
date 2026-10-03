@@ -1,0 +1,16 @@
+WBMatrix-GFNI
+GFNI-accelerated fixed-size matrix and affine operations over GF(2).
+
+This software incorporates WBMatrix from Nexus-TYF/WBMatrix,
+upstream commit 0043eb53e4ee1d7641c06c0155b5f2357bce18e9,
+distributed under the Apache License, Version 2.0.
+
+Changes in this release: the matrix and affine implementation was partitioned
+into dedicated source files and selected implementations were replaced by GFNI
+and SIMD kernels. HBUP invertible-pair generation and M8 fixed-exponent
+inversion were added. The original public headers are unchanged. WBMatrix.c
+and random.c differ from the upstream versions. See provenance/README.md for
+file-level attribution and the unchanged release-snapshot hashes.
+
+The WBMatrix-GFNI release packaging, documentation and build integration were
+prepared in 2026. The library snapshot itself is the validated 2026-08-21 release.

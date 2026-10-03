@@ -1,0 +1,14 @@
+WBSM4-GFNI
+Source release for GFNI-based white-box SM4 table construction and parallel execution.
+
+Copyright 2026 Wenhao Chen and contributing authors.
+New release adapters, tests and packaging are licensed under Apache-2.0.
+
+This distribution includes work from Nexus-TYF/WBMatrix and related white-box
+SM4 repositories, Whao-Chen/WBMatrixGFNI, and
+scnucrypto/SIMD-White-Box-Block-Cipher. Original copyright statements and license
+files are retained. See THIRD_PARTY_NOTICES.md and PROVENANCE.md.
+
+The selected Chen/Gong sources are distributed under Apache-2.0 with
+authorization from the rights holder; this does not assert that the entire
+upstream repository originally carried that license.
